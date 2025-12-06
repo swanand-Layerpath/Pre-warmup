@@ -1,0 +1,31 @@
+{
+  "event": "invitee.created",
+  "payload": {
+    "event": {
+      "uri": "https://api.calendly.com/scheduled_events/abc123xyz",
+      "name": "30 Minute Demo Call",
+      "start_time": "2025-12-03T14:00:00Z",
+      "end_time": "2025-12-03T14:30:00Z"
+    },
+    "invitee": {
+      "name": "Evan Smith",
+      "email": "evan@unicornpack.com",
+      "timezone": "America/New_York",
+      "uri": "https://api.calendly.com/scheduled_events/abc123xyz/invitees/inv123"
+    },
+    "questions_and_answers": [
+      {
+        "question": "What does your company do?",
+        "answer": "We're building a SaaS Design Studio in Figma"
+      },
+      {
+        "question": "What's your role?",
+        "answer": "Co-founder & CEO"
+      },
+      {
+        "question": "What brings you to Layerpath?",
+        "answer": "Need help with user onboarding for when we launch"
+      }
+    ]
+  }
+}
